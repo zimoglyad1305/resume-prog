@@ -1,0 +1,64 @@
+:root {
+  --text-color-prime: #595959;
+  --text-color-sec: #000000;
+  --text-color-aside: #ffffff;
+  --background-aside: #1e2939;
+  --background-prime: #ffffff;
+  --background: #e5e5e5;
+}
+
+body {
+  font-family: 'Monsterrat', sans-serif;
+  color: var(--text-color-prime);
+  line-height: 1.71;
+  font-weight: 400;
+  font-size: 14px;
+  font-style: normal;
+}
+
+.main {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: var(--background);
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.main-content {
+  background-color: var(--background-prime);
+  padding-left: 80px;
+}
+.about-title {
+    color: var(--text-color-sec);
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 1.22;
+}
+.about-work {
+    color: var(--text-color-sec);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.22;
+}
+.about-text {
+    width: 400px;
+    text-align: justify;
+}
+
+.sidebar {
+    background-color: var(--background-aside);
+    color: var(--text-color-aside);
+}
+.sidebar-content {
+  padding-left: 40px;
+}
+.adress{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+}
+.contacts>h3 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.22;
+}
+
