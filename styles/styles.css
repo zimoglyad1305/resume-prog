@@ -29,36 +29,72 @@ body {
   padding-left: 80px;
 }
 .about-title {
-    color: var(--text-color-sec);
-    font-weight: 700;
-    font-size: 45px;
-    line-height: 1.22;
+  color: var(--text-color-sec);
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 1.22;
 }
 .about-work {
-    color: var(--text-color-sec);
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.22;
+  color: var(--text-color-sec);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.22;
 }
 .about-text {
-    width: 400px;
-    text-align: justify;
+  width: 400px;
+  text-align: justify;
 }
+
+/* S I D E B A R */
 
 .sidebar {
-    background-color: var(--background-aside);
-    color: var(--text-color-aside);
+  background-color: var(--background-aside);
+  color: var(--text-color-aside);
+  width: 370px;
 }
-.sidebar-content {
+/* .sidebar-content {
   padding-left: 40px;
+  padding-top: 40px;
+} */
+.contacts,
+.tech,
+.soft {
+  margin-left: 40px;
 }
-.adress{
-    text-decoration: none;
-    color: rgba(255, 255, 255, 0.5);
+.photo {
+  padding-top: 40px;
+  margin-bottom: 50px;
 }
-.contacts>h3 {
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 1.22;
+.sidebar-title {
+  color: var(--text-color-aside);
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.22;
+  margin-bottom: 10px;
+}
+.adress {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.5);
+}
+.contacts {
+  margin-bottom: 50px;
 }
 
+.sidebar-title {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.22;
+}
+.tech-list,
+.soft-list {
+  padding: 0;
+  margin-left: 17px;
+}
+.tech-item,
+.soft-item {
+  color: #fb6d3a;
+}
+.tech-text,
+.soft-text {
+  color: var(--text-color-aside);
+}
