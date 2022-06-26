@@ -14,25 +14,30 @@ body {
   font-weight: 400;
   font-size: 14px;
   font-style: normal;
+  background-color: var(--background);
 }
 
 .main {
   display: flex;
   flex-direction: row-reverse;
-  background-color: var(--background);
   width: 1200px;
   margin: 0 auto;
 }
 
 .main-content {
   background-color: var(--background-prime);
-  padding-left: 80px;
+  padding: 105px 80px;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+.about {
+  margin-bottom: 40px;
 }
 .about-title {
   color: var(--text-color-sec);
   font-weight: 700;
   font-size: 45px;
   line-height: 1.22;
+  margin-bottom: 20px;
 }
 .about-work {
   color: var(--text-color-sec);
@@ -43,8 +48,86 @@ body {
 .about-text {
   width: 400px;
   text-align: justify;
+  margin-bottom: 25px;
 }
 
+.project {
+  margin-bottom: 50px;
+}
+.project-list {
+  margin-left: 15px;
+  padding: 0;
+  text-decoration: none;
+}
+.project-item {
+  font-weight: 700;
+  color: var(--text-color-sec);
+  padding-left: 10px;
+}
+.title {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.22;
+  color: var(--text-color-sec);
+  margin-bottom: 10px;
+}
+.item {
+  color: var(--text-color-prime);
+  text-decoration: none;
+}
+.work {
+  margin-bottom: 43px;
+}
+.work-position {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.25;
+  color: var(--text-color-sec);
+  margin-bottom: 10px;
+}
+.organization {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #fb6d3a;
+}
+.marked {
+  width: 509px;
+  padding: 10px;
+}
+.non-marked {
+  list-style-type: none;
+  padding: 0;
+}
+.period {
+  margin-bottom: 10px;
+  color: #a8a8a8;
+  margin-bottom: 10px;
+}
+.line {
+  color: var(--text-color-sec);
+}
+.education-title {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.22;
+  color: var(--text-color-sec);
+  margin-bottom: 12px;
+}
+.university {
+  font-weight: 700;
+  color: #fb6d3a;
+  font-size: 16px;
+  line-height: 1.25px;
+  margin-bottom: 12px;
+}
+.manag {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.22;
+  color: var(--text-color-sec);
+  margin-bottom: 12px;
+}
 /* S I D E B A R */
 
 .sidebar {
